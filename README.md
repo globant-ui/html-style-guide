@@ -1,4 +1,11 @@
-html-style-guide
-================
+# Globant JavaScript Style Guide() {
 
-HTML Style Guide
+*A mostly reasonable approach to HTML*
+
+
+## <a name='TOC'>Table of Contents</a>
+
+Work in progress.
+
+}
+=
