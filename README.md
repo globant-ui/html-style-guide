@@ -7,21 +7,20 @@
 
 #Work in progress.
 
-## HTML quotation marks
-* When quoting attributes values, use double quotation marks. Use double ("") rather than single quotation marks ('') around attribute values.
+### HTML quotation marks
+When quoting attributes values, use double quotation marks. Use double ("") rather than single quotation marks ('') around attribute values.
 
 
 ```
- <!-- bad -->
+  <!-- bad -->
   <a class='maia-button maia-button-secondary'>Sign in</a>
 
   <!-- good -->
   <a class="maia-button maia-button-secondary">Sign in</a>
 ```
 
-### Layout Structures
-Name your content by HTML structural elements.
-* Never name your content after the visual appearance but after its description. (e.g. prefer "sidebar-container" than "left-container")
+### Name your content by HTML structural elements.
+Never name your content after the visual appearance but after its description. (e.g. prefer "sidebar-container" than "left-container")
 
 ```
   <body>
@@ -37,7 +36,7 @@ Name your content by HTML structural elements.
 ```
 
 ### White Space
-* Indent using soft tabs set to 2 spaces, don't use hard tabs.
+Indent using soft tabs set to 2 spaces, don't use hard tabs.
 
 ```
   <div class="container">
@@ -47,8 +46,8 @@ Name your content by HTML structural elements.
 
 
 ### HTML Attributes Naming
-* Name your id, class after the elements description and not about the visual elements, use `.external-link` instead of `.red-link` => what if you change the color of the link?
-* Use hyphen to name your attribute and class.
+Name your id & classes after the elements description and not about the visual elements, use `.external-link` instead of `.red-link` => what if you change the color of the link?
+Use hyphen to name your attributes and class.
 
 ```
 	<div>
@@ -65,6 +64,9 @@ Ensure that all websites use the new HTML5 doctype
   <!doctype html>
 ```
 
+### alt:
+All images which are using the <img> tag should use the alt attribute. If not alternative is provided, it is still mandatory to use the alt attribute but with an empty string to comply with accessibility rules.
+
 ### Meta Tags:
 #### Character set
 Ensure that all websites use UTF-8 character sets so that the pages can be read universally
@@ -79,9 +81,6 @@ Make sure to include a viewport meta tag when building a responsive or mobile de
 ```
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 ```
-
-### alt:
-All images which are using the <img> tag should use the alt attribute. If not alternative is provided, it is still mandatory to use the alt attribute but with an empty string to comply with accessibility rules.
 
 }
 =
