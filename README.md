@@ -1,4 +1,4 @@
-# Globant JavaScript Style Guide() {
+# Globant HTML Style Guide() {
 
 *A mostly reasonable approach to HTML*
 
